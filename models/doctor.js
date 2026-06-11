@@ -40,4 +40,6 @@ const doctorSchema = new mongoose.Schema(
      }
 );
 
+
+
 module.exports = mongoose.model("Appointment",doctorSchema);
